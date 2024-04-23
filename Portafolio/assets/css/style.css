@@ -1,0 +1,80 @@
+* {
+    font-family: "Playfair Display", serif;
+    text-align: justify;
+}
+
+.bi {
+    font-family: sans-serif;
+}
+
+header, footer {
+    background-color: rgba(25, 172, 191, 0.733);
+}
+
+.nav-item a:hover, footer div:hover {
+    padding: 6px;
+    background-color: #000000;
+    color: #fff;
+    border-radius: 15px;
+}
+
+footer div a p:hover {
+    color: #fff;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #000;
+}
+
+.inicio, #educacion, #proyectos {
+    background-color: rgba(62, 233, 255, 0.733);
+}
+
+.inicio div {
+    width: 50%;
+}
+
+.foto {
+    max-width: 250px;
+    border-radius: 50px;
+}
+
+.cont-card .card {
+    width: 22rem;
+}
+
+.card {
+    width: 18rem;
+}
+
+main {
+    background-color: rgba(121, 229, 243, 0.733);
+}
+
+#aboutMe{
+    background-color: rgba(86, 227, 246, 0.733);
+}
+
+#habilidades{
+    background-color: rgba(86, 227, 246, 0.733);
+}
+
+
+@media (max-width: 768px) {
+    .inicio {
+        flex-direction: column;
+        justify-content: center;
+    } 
+
+    .inicio div {
+        width: 100%;
+    }
+
+    .cont-card {
+        flex-direction: column;
+    }
+    .card {
+        width: 100%;
+    }
+}

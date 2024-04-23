@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+
+    <title>Portafolio</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-1" href="index.html">Portafolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item m-2">
+                            <a href="#aboutMe">Sobre Mí</a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a href="#educacion">Educación</a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a href="#habilidades">Habilidades</a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a href="#proyectos">Proyectos</a>
+                        </li>
+                        <li class="nav-item m-2">
+                            <a href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="pb-3">
+        <div class="inicio d-flex mb-3">
+            <div class="d-flex justify-content-center p-5">
+                <img src="./assets/img/foto.jpg" class="foto">
+            </div>
+            <div class="nombre d-flex">
+                <div class="w-100 d-flex justify-content-center flex-column align-items-center">
+                    <h1>Juan Manuel Alvarez</h1>
+                    <p class="m-0 f-s6">Desarrollador De Software</p>
+                    <p class="m-0 f-s6">Back end Developer</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="aboutMe" class="d-flex m-3">
+            <div class="w-50 aboutMe-qs">
+                <h2 class="my-3 ">Quién Soy?</h2>
+                <p class="py-5 pe-5">
+                    Me llamo Juan y soy un apasionado desarrollador de software.
+                    Paso la mayor parte de mi tiempo escribiendo código y resolviendo
+                    problemas creativos. Me encanta sumergirme en el mundo de la
+                    programación y explorar nuevas tecnologías.
+                </p>
+            </div>
+            <div class="w-50 ps-3 aboutMe-qa">
+                <h2 class="my-3 ">Qué me apasiona?</h2>
+                <p class="py-5 ">
+                    Lo que realmente me apasiona es la creatividad que se puede expresar a
+                    través del código. Me emociona la posibilidad de crear aplicaciones y
+                    sitios web que sean elegantes, eficientes y que ofrezcan una gran
+                    experiencia de usuario.
+                </p>
+            </div>
+        </div>
+        <div id="educacion" class="p-3 m-3">
+            <h2 class="ms-3 mb-5">Educación</h2>
+            <div class="cont-card d-flex justify-content-evenly">
+                <div class="d-flex m-1">
+                    <div class="card ">
+                        <img src="./assets/img/eduImg1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Auxiliar en Sistemas Informaticos</h5>
+                            <p class="card-text"><b>Institución:</b> Politecnico Superior Cafetero</p>
+                            <p class="card-text"><b>Estado:</b> Finalizado</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex m-1">
+                    <div class="card ">
+                        <img src="./assets/img/eduImg2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Tecnologia en Desarrollo de Software</h5>
+                            <p class="card-text"><b>Intitución:</b> Universidad Tecnologica De Pereira</p>
+                            <p class="card-text"><b>Estado:</b> Cursando</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="habilidades" class="m-3 p-3">
+            <h2>Habilidades</h2>
+            <div class="d-flex justify-content-evenly mb-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/habImg1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Flutter</h5>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/habImg3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">HTML y CSS</h5>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/habImg4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">JavaScript</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-evenly">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/habImg2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">C++</h5>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/habImg5.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">C#</h5>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/habImg6.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">PHP</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="proyectos" class="p-3 m-3">
+            <h2 class="mb-5">Proyectos</h2>
+            <div class="cont-card d-flex justify-content-evenly">
+                <div class="card">
+                    <img src="./assets/img/proImg1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">App de Musica</h5>
+                        <p class="card-text">Este proyecto fue creado con Flutter que es un
+                            SDK de código fuente abierto de desarrollo de aplicaciones
+                            móviles. El proyecto se trata de una aplicación
+                            la cual permite reproducir, pausar y pasar una lista de canciones.
+                        </p>
+                        <a href="https://github.com/juanalvarez6/proyectoFinalProgramacionParaMoviles.git"
+                            class="btn btn-primary">Ir al Repositorio</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./assets/img/proImg2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Api de Empleados</h5>
+                        <p class="card-text">
+                            Este proyecto fue creado con "C#" que es un lenguaje de
+                            programación multiparadigma desarrollado.
+                            El proyecto trata de un api que almacena la informacón de
+                            los empleados y el departamento al cual pertenecen en la empresa.
+                        </p>
+                        <a href="https://github.com/juanalvarez6/ProyectoFinalDesarrolloDeApp2023.git"
+                            class="btn btn-primary">Ir al Repositorio</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./assets/img/proImg3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Sistema de Inventario</h5>
+                        <p class="card-text">
+                            Este proyecto fue creado con HTML(HyperText Markup Language), CSS y JavaScript.
+                            Este proyecto trata de un sistema de inventarios donde se mustran varios datos sobre
+                            Empleados, productos, etc, traidos desde archivos JSON.
+                        </p>
+                        <a href="https://github.com/juanalvarez6/firstProjectTMDS.git" class="btn btn-primary">Ir al
+                            Repositorio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="contacto" class="d-flex justify-content-evenly p-5">
+        <div class="d-flex flex-column">
+            <img src="./assets/img/WhatsApp.png" class="m-auto" alt="" width="40px"><p>3127654080</p>
+        </div>
+        <div class="d-flex flex-column">
+            <img src="./assets/img/correo.png" width="40px" class="m-auto" alt=""><p>juan.alvarez6@utp.edu.co</p>
+        </div>
+        <div><a href="https://www.linkedin.com/in/juan-manuel-alvarez-rodriguez-4549a7248/" class="text-decoration-none text-dark d-flex flex-column">
+            <img src="./assets/img/linkedin.png" width="40px" class="m-auto" alt=""><p>Linkedin</p></a></div>
+    </footer>
+
+    <script src="./assets/js/codigo.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
